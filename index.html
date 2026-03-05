@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body class="container">
+<body>
     <header>
 
-        <section id="header">
+        <section id="header" class="container">
             <div class="main-header ">
                 <img src="Assets/logo.png" alt="Logo da Coworking-Space">
                 <div class="main-header-elements">
@@ -24,7 +24,7 @@
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="container">
 
             <div class="hero-box">
                 <h3 class="hero-subtitle">
@@ -57,7 +57,7 @@
 
         <section id="coworking-spaces-startup">
 
-            <div class="coworking-space-startup-box">
+            <div class="coworking-space-startup-box container">
                 <img src="Assets/room-avaiable.png" alt="Imagem de quantos quartos estao livres(30)">
 
                 <h3 class="coworking-space-startup-box-title">
@@ -71,9 +71,11 @@
                     right for you
                 </p>
 
-                <p class="coworking-space-startup-box-btn">
-                    Get Workspace
-                </p>
+                <div class="coworking-space-startup-box-box-btn">
+                    <p class="coworking-space-startup-box-btn-button">
+                        Get Workspace
+                    </p>
+                </div>
 
             </div>
 
@@ -81,7 +83,7 @@
 
         <section id="guide-to-coworking-spaces">
 
-            <div class="guide-to-coworking-spaces-box">
+            <div class="guide-to-coworking-spaces-box container">
                 <h3 class="guide-to-coworking-spaces-box-title">
                     The ultimate Guide to
                     Coworking
@@ -105,57 +107,78 @@
                     </div>
 
                     <div class="guide-to-coworking-spaces-box-numbers-number">
-                        <h3 class="guide-to-coworking-spaces-box-numbers-number-title">
-                            30
-                        </h3>
-                        <p class="guide-to-coworking-spaces-box-description">
-                            Event Spaces
-                        </p>
+                        <h3 class="guide-to-coworking-spaces-box-numbers-number-title">30</h3>
+                        <p class="guide-to-coworking-spaces-box-numbers-number-description">Event Spaces</p>
+
                     </div>
 
                     <div class="guide-to-coworking-spaces-box-numbers-number">
-                        <h3 class="guide-to-coworking-spaces-box-numbers-number-title">
-                            45
-                        </h3>
+                        <h3 class="guide-to-coworking-spaces-box-numbers-number-title">45</h3>
                         <p class="guide-to-coworking-spaces-box-numbers-number-description">
                             Working Spaces
                         </p>
                     </div>
                 </div>
+                <img src="Assets/guide.png" alt="Imagem de um escritorio com duas cadeiras e um sofa">
             </div>
 
         </section>
 
 
-        <section id="inspiring-place">
+        <section id="inspiring-place" class="container">
             <div id="inspiriting-place-box">
-                <img src="Assets/guide.png" alt="Imagem de um escritorio com duas cadeiras e um sofa">
+                <h3 class="inspiring-place-title">
+                    When you need
+                    an inspiring <span class="quebra-mobile"></span>
+                    place to work
+                </h3>
+                <p class="inspiring-place-description">
+                    This guide will give you an overview of
+                    the different types of coworking spaces
+                    available, and help you decide which one
+                    is right for you.
+                </p>
+
+                <img src="Assets/inspired.png" alt="imagem escritorio com varias cadeiras ">
+
                 <div id="guide-to-coworking-spaces-icons">
 
                     <div class="inspiring-place-icons-first">
 
-                        <img src="Assets/wifi.png" alt="Wifi network Availability">
-                        <p>Wifi Network Availability</p>
+                        <div class="icon-item">
+                            <img src="Assets/wifi.png" alt="Wifi network Availability">
+                            <p>Wifi Network Availability</p>
+                        </div>
 
-                        <img src="Assets/Like.png" alt="Icone de Like">
-                        <p>Comfortable Workspace</p>
+                        <div class="icon-item">
+                            <img src="Assets/Like.png" alt="Icone de Like">
+                            <p>Comfortable Workspace</p>
+                        </div>
 
-                        <img src="Assets/house.png" alt="Imagem de uma casa ">
-                        <p>Restroom and Mosque</p>
+                        <div class="icon-item">
+                            <img src="Assets/house.png" alt="Imagem de uma casa ">
+                            <p>Restroom and Mosque</p>
+                        </div>
 
                     </div>
 
                     <div id="inspiring-place-icons-second">
 
-                        <img src="Assets/price.png" alt="Imagem  de um icone de preço">
-                        <p>Affordable Prices</p>
+                        <div class="icon-item">
+                            <img src="Assets/price.png" alt="Imagem  de um icone de preço">
+                            <p>Affordable Prices</p>
+                        </div>
 
-                        <img src="Assets/car.png" alt="Imagem de um carro estacionado">
-                        <p>Wide Parking Area</p>
+                        <div class="icon-item">
+                            <img src="Assets/car.png" alt="Imagem de um carro estacionado">
+                            <p>Wide Parking Area</p>
+                        </div>
 
+                        <div class="icon-item">
+                            <img src="Assets/clock.png" alt="Imagem de um relogio">
+                            <p>24-hours Admin Helps</p>
+                        </div>
 
-                        <img src="Assets/clock.png" alt="Imagem de um relogio">
-                        <p>24-hours Admin Helps</p>
                     </div>
 
                 </div>

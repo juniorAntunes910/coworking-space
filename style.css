@@ -15,6 +15,10 @@
     --branco: #fff;
 }
 
+.quebra-mobile{
+    display: block;
+}
+
 
 
 .container {
@@ -23,9 +27,6 @@
     margin: 0 auto;
 }
 
-section{
-    padding: 5rem 0;
-}
 
 
 /* Start of Mobile */
@@ -98,12 +99,128 @@ section{
 
 #coworking-spaces-startup{
     margin-top: 5.563rem;
+    background-color: #EBFAEF;
+    padding-top: 5.563rem;
 }
 
-.coworking-space-startup-box{
-    background-color: #EBFAEF;
+.coworking-space-startup-box-title{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+
 }
+
+.coworking-space-startup-box-description{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: #757BBA;
+}
+
+.coworking-space-startup-box-box-btn{
+    display: inline-flex;
+    margin-top: 2.5rem;
+    margin-bottom: 5.25rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--color-btn);
+    color: var(--branco);
+    border-radius: var(--border-radius-btn);
+}
+
 
 /* End of coworking-spaces-startup */
+
+/* Start of guide-to-coworking-space */
+
+#guide-to-coworking-spaces{
+    padding-top: 4.313rem;
+    padding-bottom: 4.625rem;
+    background-color: #094319;
+    color: var(--branco);
+}
+
+#guide-to-coworking-spaces-box-numbers{
+    display: flex;
+    gap: 1.813rem;
+    margin-left: 2.125rem;
+}
+
+.guide-to-coworking-spaces-box-title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 120%;
+
+}
+
+.guide-to-coworking-spaces-box-description{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+#guide-to-coworking-spaces-box-numbers{
+    margin-top: 2.5rem;
+}
+
+.guide-to-coworking-spaces-box-numbers-number-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.guide-to-coworking-spaces-box-numbers-number-description{
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+#guide-to-coworking-spaces img{
+    margin-top: 3.563rem;
+}
+
+/* End of guide-to-coworking-space*/
+
+
+/*Start of inspiring-place */
+
+#inspiring-place{
+    margin-bottom: 3.625rem;
+}
+
+.inspiring-place-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 7.063rem;
+}
+
+.inspiring-place-description{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+} 
+
+#inspiriting-place-box img{
+    margin-top: 2.75rem;
+}
+
+
+#guide-to-coworking-spaces-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* End of inspiring-place */
+
+
 
 /* End of mobile */
