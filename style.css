@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+:root {
+    --color-btn: #24AA4A;
+    --border-radius-btn: 0.5rem;
+    --branco: #fff;
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+
+/* Start of Mobile */
+
+/*Start of header */
+.main-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 0.7rem;
+}
+
+.main-header-elements {
+    display: flex;
+    align-items: center;
+    gap: 11.938rem;
+}
+
+/*End of Header*/
+
+
+/*Start of hero */
+
+#hero {
+    margin-top: 3.375rem;
+}
+
+.hero-subtitle {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.hero-title {
+    margin-top: 1rem;
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: -0.063rem;
+
+}
+
+.hero-description {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: #757B8A
+}
+
+.hero-btn-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--color-btn);
+    border-radius: var(--border-radius-btn);
+    font-size: 1rem;
+    color: var(--branco)
+}
+
+.hero-box img{
+    margin-top: 2.875rem;
+}
+
+/* End of hero */
+
+/*Start of coworking-spaces-startup */
+
+#coworking-spaces-startup{
+    margin-top: 5.563rem;
+}
+
+.coworking-space-startup-box{
+    background-color: #EBFAEF;
+}
+
+/* End of coworking-spaces-startup */
+
+/* End of mobile */
