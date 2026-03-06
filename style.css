@@ -36,7 +36,6 @@
 img {
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 
@@ -44,7 +43,9 @@ img {
     display: block;
 }
 
-
+.quebra-desktop{
+    display: block;
+}
 
 .container {
     width: 90%;
@@ -60,6 +61,7 @@ img {
 .main-header {
     display: flex;
     align-items: center;
+    margin-top: 0.75rem;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -73,9 +75,6 @@ img {
     align-items: center;
     gap: 0.5rem;
 }
-
-
-/*End of Header*/
 
 
 /*Start of hero */
@@ -95,7 +94,6 @@ img {
     font-weight: 800;
     letter-spacing: -0.063rem;
     word-wrap: break-word;
-
 }
 
 .hero-description {
@@ -431,3 +429,137 @@ img {
 
 /* End of mobile */
 
+/* Start of Desktop */
+
+
+
+
+/*Start of Display none header - desktop (for mobile)*/
+@media screen and (max-width: 1024px) {
+    #header-list-options {
+        display: none;
+    }
+
+    .sign-in-btn {
+        display: none;
+    }
+
+    #hero-desktop {
+        display: none;
+    }
+
+    .hero-btn-box-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*Start of header */
+
+    .main-header nav div:not(.sign-in-btn) {
+        display: flex;
+        align-items: center;
+    }
+
+    #header-list-options {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    #barras-mobile {
+        display: none;
+    }
+
+    .header-option-green {
+        text-decoration: none;
+    }
+
+    .header-option-green a {
+        text-decoration: none;
+        color: var(--color-btn)
+    }
+
+    .header-option a {
+        text-decoration: none;
+        color: #000
+    }
+
+
+
+    .sign-in-btn {
+        display: flex;
+    }
+
+
+
+    .header-option a {
+        text-decoration: none;
+    }
+
+    .sign-in-btn {
+        padding: var(--padding-botao);
+        background-color: var(--color-btn);
+        border-radius: var(--border-radius-btn);
+        color: var(--branco);
+    }
+
+    .sign-in-btn a {
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    /* End of header */
+
+    /*Start of hero */
+
+    #hero-mobile {
+        display: none;
+    }
+
+    #hero-desktop {
+        display: flex;
+        margin-top: -2rem;
+    }
+
+    .hero-subtitle{
+        margin-top: 7.563rem;
+    }
+
+    .hero-title {
+        margin-top: 1rem;
+        font-size: 6.25rem;
+        font-weight: 800;
+        letter-spacing: -0.063rem;
+        margin-top: 1rem;
+    }
+
+    .hero-box{
+        display: inline-flex;
+        gap: 7rem;
+    }
+
+    .hero-btn-box{
+        display: none;
+    }
+
+    .hero-btn-box-desktop {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+    padding: var(--padding-botao);
+    background-color: var(--color-btn);
+    border-radius: var(--border-radius-btn);
+    font-size: var(--font-size-1rem);
+    color: var(--branco)
+}
+
+
+
+    /*End of hero */
+
+    /* End of Desktop */
+}
