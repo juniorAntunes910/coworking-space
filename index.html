@@ -14,11 +14,11 @@
 
         <section id="header" class="container">
             <div class="main-header ">
-                <img src="Assets/logo.png" alt="Logo da Coworking-Space">
-                <div class="main-header-elements">
+                <div class="logo-box">
+                    <img src="Assets/logo.png" alt="Logo da Coworking-Space" ; </div>
                     <h1 class="logo">coca</h1>
-                    <i class="fa-solid fa-bars"></i>
                 </div>
+                <i class="fa-solid fa-bars"></i>
             </div>
         </section>
     </header>
@@ -219,22 +219,24 @@
             <div id="newsletter-box">
 
                 <div class="newsletter-box-header">
-                    <img src="Assets/logo.png" alt="Logo da coca">
+                    <img src="Assets/logo.png" alt="Logo-da-coca">
                     <p class="newsletter-box-header-title">Ready to get started?</p>
                     <div id="newsletter-box-header-btn">
                         <p>Get Started</p>
                     </div>
                 </div>
 
-                <div class="newsletter-box-forms">
-                    <h3 class="newsletter-box-forms-title">Subcribe to our newsletter</h3>
+                <div class="newsletter-box-forms container">
+                    <h3 class="newsletter-box-forms-title">Subcribe to our <span class="quebra-mobile"></span>newsletter
+                    </h3>
 
-                    <form action="/enviar" method="post">
-
-                        <label for="email"></label>
-                        <input type="text" id="email" name="email" placeholder="Email Address:" required>
-                        <button type="submit">></button>
+                    <form action="/enviar" method="post" id="form-newsletter">
+                        <input type="text" id="email" name="email" placeholder="Email address:" required>
+                        <button type="submit" id="btn-arrow">
+                            >
+                        </button>
                     </form>
+
 
                 </div>
 
@@ -246,14 +248,14 @@
             <div id="footer-box">
                 <div class="footer-box-links">
                     <nav>
-                        <ul>
-                            <li>
-                                <a href="#">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                        </ul>
+                        <div class="footer-link">
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+
+                        <div class="footer-link">
+                            <a href="#">Privacy Policy</a>
+                        </div>
+
                     </nav>
                 </div>
                 <div class="footer-box-icons">
