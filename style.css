@@ -564,8 +564,11 @@ img {
 
     /* Start of guide-to-coworking-space*/
 
+
+
     #room-avaiable-desktop{
         display: flex;
+        margin-left: 10%;
     }
 
     #room-avaiable-mobile{
@@ -575,6 +578,21 @@ img {
     #coworking-space-box-desktop{
         display: flex;
     }
+
+    #room-avaiable-desktop{
+        margin-bottom: 5rem;
+    }
+
+    .text-division-coworking-desktop{
+        flex-direction: column;
+        margin-right: 15%;
+    }
+
+    .coworking-space-startup-box-title{
+        font-size: 3.75rem;
+    }
+
+
 
     /* End of guide-to-coworking-space*/
 
