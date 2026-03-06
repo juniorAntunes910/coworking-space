@@ -451,6 +451,10 @@ img {
     .hero-btn-box-desktop{
         display: none;
     }
+
+    #room-avaiable-desktop{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -556,10 +560,24 @@ img {
     font-size: var(--font-size-1rem);
     color: var(--branco)
 }
-
-
-
     /*End of hero */
+
+    /* Start of guide-to-coworking-space*/
+
+    #room-avaiable-desktop{
+        display: flex;
+    }
+
+    #room-avaiable-mobile{
+        display: none;
+    }
+
+    #coworking-space-box-desktop{
+        display: flex;
+    }
+
+    /* End of guide-to-coworking-space*/
+
 
     /* End of Desktop */
 }
