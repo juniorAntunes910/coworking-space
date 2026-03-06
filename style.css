@@ -221,6 +221,51 @@
 
 /* End of inspiring-place */
 
+/*Start of testimonials */
 
+.woman-notebook{
+    margin-left: -2rem;
+}
+
+#testimonials-box-title{
+    margin-top: 2.875rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.testimonials-box-description{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: #757B8A;
+}
+
+.testimonials-person{
+    margin-top: 2.5rem;
+}
+
+.testimonials-person-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.testimonials-person-description{
+    margin-top: 0.5rem;
+    margin-bottom: 6rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color:#757B8A;
+}
+
+
+/*End of testimonials*/
+
+/* Start of newsletter */
+
+
+
+/* End of newsletter */
 
 /* End of mobile */
