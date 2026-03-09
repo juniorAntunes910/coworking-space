@@ -465,22 +465,26 @@ img {
         display: none;
     }
 
-    .quebra-mobile{
+    .quebra-mobile {
         display: block;
     }
 
-    .quebra-desktop{
+    .quebra-desktop {
+        display: none;
+    }
+
+    #guide-desktop{
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
-    .quebra-desktop{
+    .quebra-desktop {
         display: block;
     }
 
-    .quebra-mobile{
+    .quebra-mobile {
         display: none;
     }
 
@@ -491,7 +495,7 @@ img {
         align-items: center;
     }
 
-    .main-header nav{
+    .main-header nav {
         display: flex;
         align-items: center;
         gap: 4rem;
@@ -571,7 +575,7 @@ img {
     }
 
     .hero-box {
-        display: inline-flex;
+        display: flex;
         gap: 7rem;
     }
 
@@ -596,11 +600,30 @@ img {
 
     /* Start of guide-to-coworking-space*/
 
+    #coworking-space-box-desktop {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .quebra-desktop {
+        display: block;
+    }
+
+    .quebra-mobile {
+        display: none;
+    }
+
+
+    #coworking-spaces-startup {
+        margin-bottom: 6rem;
+        margin-top: 6rem;
+    }
 
 
     #room-avaiable-desktop {
-        display: flex;
-        margin-left: 10%;
+        width: 560px;
+        margin-left: -6rem;
     }
 
     #room-avaiable-mobile {
@@ -616,18 +639,35 @@ img {
     }
 
     .text-division-coworking-desktop {
+        max-width: 560px;
+        display: flex;
         flex-direction: column;
-        margin-right: 15%;
     }
 
     .coworking-space-startup-box-title {
         font-size: 3.75rem;
     }
 
-
-
+    .coworking-space-startup-box-box-btn {
+        width: 200px;
+        justify-content: center;
+    }
     /* End of guide-to-coworking-space*/
 
+
+    /*Start of Guide to workspace */
+
+    #guide-desktop{
+        display: block;
+    }
+
+    #guide-mobile{
+        display: none;
+    }
+
+    
+
+    /*End of guide to workspace */
 
     /* End of Desktop */
 }
