@@ -259,6 +259,7 @@ img {
     align-items: center;
     text-align: center;
     padding: 2rem;
+    font-weight: 500;
 }
 
 /* End of inspiring-place */
@@ -317,6 +318,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+#logo-desktop{
+    margin-left: 3rem;
 }
 
 #newsletter-box img {
@@ -473,7 +479,27 @@ img {
         display: none;
     }
 
-    #guide-desktop{
+    #guide-desktop {
+        display: none;
+    }
+
+    #inspired-mobile {
+        display: block;
+    }
+
+    #inspired-desktop {
+        display: none;
+    }
+
+    .woman-notebook-mobile {
+        display: block;
+    }
+
+    .woman-notebook-desktop {
+        display: none;
+    }
+
+    #links-desktop {
         display: none;
     }
 }
@@ -652,22 +678,206 @@ img {
         width: 200px;
         justify-content: center;
     }
+
     /* End of guide-to-coworking-space*/
 
 
     /*Start of Guide to workspace */
 
-    #guide-desktop{
+    #guide-desktop {
         display: block;
     }
 
-    #guide-mobile{
+    #guide-mobile {
         display: none;
     }
 
-    
+    .guide-to-coworking-spaces-box {
+        display: flex;
+        align-items: center;
+    }
+
+    #guide-column-desktop {
+        flex-direction: column;
+    }
+
+    .guide-to-coworking-spaces-box-title {
+        font-size: 60px;
+    }
+
+    #guide-to-coworking-spaces-box-numbers {
+        margin-left: -0.4rem;
+    }
 
     /*End of guide to workspace */
+
+    /*Start of inspired */
+
+    #inspired-mobile {
+        display: none;
+    }
+
+    #inspired-desktop {
+        display: block;
+    }
+
+    .inspired-box-desktop {
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+    }
+
+    .inspiring-place-description {
+        margin-top: 5rem;
+        color: var(--cinza);
+    }
+
+    #guide-to-coworking-spaces-icons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3.563rem;
+    }
+
+    .inspiring-place-icons-first {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #inspiring-place-icons-second {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*End of inspired */
+
+    /*Start of Testimonials */
+
+    #testimonials {
+        padding-top: 8.625rem;
+    }
+
+    .woman-notebook-mobile {
+        display: none;
+    }
+
+    .woman-notebook-desktop {
+        display: block;
+    }
+
+    #testimonials-box {
+        display: flex;
+        gap: 3.5rem;
+    }
+
+    #testimonials-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+        gap: 4rem;
+        padding-bottom: 7.625rem;
+    }
+
+    testimonials-box-title {
+        font-size: 40px;
+        font-weight: var(--weight-700);
+    }
+
+    .testimonials-person {
+        margin-top: 0rem;
+    }
+
+    /*End of Testimonials */
+
+    /*Start of newsletter */
+
+
+    #newsletter {
+        display: flex;
+    }
+
+    #newsletter-box {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1500px;
+    }
+
+    .newsletter-box-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-content-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 1400px;
+        width: 100%;
+    }
+
+    #logo-desktop {
+        margin-bottom: 2rem;
+    }
+
+    #newsletter-desktop {
+        display: block;
+        gap: 2rem;
+    }
+
+    .button-desktop {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .newsletter-box-forms {
+        width: 100%;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #links-desktop {
+        display: flex;
+        gap: 10rem;
+    }
+
+    .list-link-desktop h2 {
+        font-size: 18px;
+        color: var(--color-btn);
+        font-weight: var(--weight-700);
+    }
+
+    .list-link-desktop li  {
+        font-size: 1rem;
+        font-weight: 400;
+        gap: 1rem;
+        margin-top: 1.2rem;
+    }
+
+    li{
+        list-style: none;
+    }
+
+
+    /*End of newsletter */
+
+    /*Sart of footer */
+
+    #footer-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+
+    .footer-box-icons{
+        color: #24AA4A;
+    }
+
+    /*End of footer */
 
     /* End of Desktop */
 }
