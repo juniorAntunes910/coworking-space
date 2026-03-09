@@ -8,6 +8,11 @@
     font-family: "Inter", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--branco)
+}
+
 
 :root {
 
@@ -43,7 +48,7 @@ img {
     display: block;
 }
 
-.quebra-desktop{
+.quebra-desktop {
     display: block;
 }
 
@@ -121,6 +126,10 @@ img {
     margin-top: 2.875rem;
 }
 
+#hero-mobile {
+    margin-top: 2.875rem;
+}
+
 /* End of hero */
 
 /*Start of coworking-spaces-startup */
@@ -132,7 +141,6 @@ img {
 }
 
 .coworking-space-startup-box-title {
-    margin-top: 3rem;
     font-size: 3rem;
     word-wrap: break-word;
     font-weight: var(--weight-700);
@@ -404,7 +412,8 @@ img {
     display: flex;
     padding-left: 1rem;
     padding-right: 1rem;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4rem;
     flex-wrap: wrap;
 }
 
@@ -448,22 +457,44 @@ img {
         display: none;
     }
 
-    .hero-btn-box-desktop{
+    .hero-btn-box-desktop {
         display: none;
     }
 
-    #room-avaiable-desktop{
+    #room-avaiable-desktop {
+        display: none;
+    }
+
+    .quebra-mobile{
+        display: block;
+    }
+
+    .quebra-desktop{
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
+    .quebra-desktop{
+        display: block;
+    }
+
+    .quebra-mobile{
+        display: none;
+    }
+
     /*Start of header */
 
     .main-header nav div:not(.sign-in-btn) {
         display: flex;
         align-items: center;
+    }
+
+    .main-header nav{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
     }
 
     #header-list-options {
@@ -527,7 +558,7 @@ img {
         margin-top: -2rem;
     }
 
-    .hero-subtitle{
+    .hero-subtitle {
         margin-top: 7.563rem;
     }
 
@@ -539,56 +570,57 @@ img {
         margin-top: 1rem;
     }
 
-    .hero-box{
+    .hero-box {
         display: inline-flex;
         gap: 7rem;
     }
 
-    .hero-btn-box{
+    .hero-btn-box {
         display: none;
     }
 
     .hero-btn-box-desktop {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 2.5rem;
-    flex-wrap: wrap;
-    padding: var(--padding-botao);
-    background-color: var(--color-btn);
-    border-radius: var(--border-radius-btn);
-    font-size: var(--font-size-1rem);
-    color: var(--branco)
-}
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 2.5rem;
+        flex-wrap: wrap;
+        padding: var(--padding-botao);
+        background-color: var(--color-btn);
+        border-radius: var(--border-radius-btn);
+        font-size: var(--font-size-1rem);
+        color: var(--branco)
+    }
+
     /*End of hero */
 
     /* Start of guide-to-coworking-space*/
 
 
 
-    #room-avaiable-desktop{
+    #room-avaiable-desktop {
         display: flex;
         margin-left: 10%;
     }
 
-    #room-avaiable-mobile{
+    #room-avaiable-mobile {
         display: none;
     }
 
-    #coworking-space-box-desktop{
+    #coworking-space-box-desktop {
         display: flex;
     }
 
-    #room-avaiable-desktop{
+    #room-avaiable-desktop {
         margin-bottom: 5rem;
     }
 
-    .text-division-coworking-desktop{
+    .text-division-coworking-desktop {
         flex-direction: column;
         margin-right: 15%;
     }
 
-    .coworking-space-startup-box-title{
+    .coworking-space-startup-box-title {
         font-size: 3.75rem;
     }
 
